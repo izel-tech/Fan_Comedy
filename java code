@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Fan_speed {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Mala Fan uhh:");
+        int fan_number=sc.nextInt();
+        switch (fan_number){
+            case 1:
+                System.out.println("Low Speed\n");
+                break;
+            case 2:
+                System.out.println("Speed\n");
+                break;
+            case 3:
+                System.out.println("High Speed\n");
+                break;
+            case 4:
+                System.out.println("Slight High Speed\n");
+                break;
+            case 5:
+                System.out.println("Very High Speed\n");
+                break;
+            default:
+                System.out.println("Irukurathey 5 thaan\n");
+                break;
+        }
+        return;
+    }
+}
